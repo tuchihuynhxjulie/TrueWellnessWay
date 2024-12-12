@@ -1,0 +1,21 @@
+.close-btn:hover {
+    opacity: 0.8;
+}
+
+.item-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.item-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #898989;
+    border-radius: 10px;
+}
+
+.item-list::-webkit-scrollbar-thumb {
+    background: #898989;
+    border-radius: 10px;
+}
+
+.item-list::-webkit-scrollbar-thumb:hover {
+    background: #898989;
+}

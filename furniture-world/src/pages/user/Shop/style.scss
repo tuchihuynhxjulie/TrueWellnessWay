@@ -1,0 +1,13 @@
+.active {
+    color: #fff;
+    font-weight: 600 !important;
+}
+
+.normal:hover {
+    opacity: 0.8;
+}
+.disabled {
+    background-color: #898989 !important;
+    cursor: default !important;
+    color: black !important;
+}
