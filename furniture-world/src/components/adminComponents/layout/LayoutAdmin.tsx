@@ -417,7 +417,7 @@ export const LayoutAdmin = () => {
                         <Outlet />
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>
-                        Design ©{new Date().getFullYear()} Created by Gia Bao
+                        Design ©{new Date().getFullYear()} Created by Hoang Bao
                     </Footer>
                 </Layout>
             </Layout>

@@ -38,15 +38,15 @@ export const ShopPage = () => {
 
     const handleSelectCategory = (value: string) => {
         let categoryProducts = [...productFetch];
-        if (value === 'Dining Room')
-            categoryProducts = categoryProducts.filter((product) => product.category === 'Dining Room');
-        if (value === 'Bedroom')
-            categoryProducts = categoryProducts.filter((product) => product.category === 'Bedroom');
-        if (value === 'Kitchen')
-            categoryProducts = categoryProducts.filter((product) => product.category === 'Kitchen');
-        if (value === 'Office') categoryProducts = categoryProducts.filter((product) => product.category === 'Office');
-        if (value === 'Living Room')
-            categoryProducts = categoryProducts.filter((product) => product.category === 'Living Room');
+        if (value === 'Strength Training Equipment')
+            categoryProducts = categoryProducts.filter((product) => product.category === 'Strength Training Equipment');
+        if (value === 'Treadmills')
+            categoryProducts = categoryProducts.filter((product) => product.category === 'Treadmills');
+        if (value === 'Weights')
+            categoryProducts = categoryProducts.filter((product) => product.category === 'Weights');
+        if (value === 'Accessories') categoryProducts = categoryProducts.filter((product) => product.category === 'Accessories');
+        if (value === 'Rowing Machine')
+            categoryProducts = categoryProducts.filter((product) => product.category === 'Rowing Machine');
         if (value === 'All') categoryProducts;
         setProducts(categoryProducts);
     };
@@ -103,11 +103,11 @@ export const ShopPage = () => {
                             defaultValue={'All'}
                             options={[
                                 { label: 'All categories', value: 'All' },
-                                { label: 'Dining Room', value: 'Dining Room' },
-                                { label: 'Bedroom', value: 'Bedroom' },
-                                { label: 'Kitchen', value: 'Kitchen' },
-                                { label: 'Office', value: 'Office' },
-                                { label: 'Living Room', value: 'Living Room' },
+                                { label: 'Strength Training Equipment', value: 'Strength Training Equipment' },
+                                { label: 'Treadmills', value: 'Treadmills' },
+                                { label: 'Weights', value: 'Weights' },
+                                { label: 'Accessories', value: 'Accessories' },
+                                { label: 'Rowing Machine', value: 'Rowing Machine' },
                             ]}
                         />
                     </Flex>
