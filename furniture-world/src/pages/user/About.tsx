@@ -13,24 +13,14 @@ export const AboutPage = (props: Props) => {
 
     const members = [
         {
-            middleName: 'Gia',
+            middleName: 'Hoang',
             firstName: 'Bao',
-            image: assets.GiaBao,
+            image: assets.HoangBao,
         },
         {
-            middleName: 'Cong',
-            firstName: 'Bang',
-            image: assets.CongBang,
-        },
-        {
-            middleName: 'Minh',
-            firstName: 'Vu',
-            image: assets.MinhVu,
-        },
-        {
-            middleName: 'Minh',
-            firstName: 'Huy',
-            image: assets.MinhHuy,
+            middleName: 'Tu',
+            firstName: 'Chi',
+            image: assets.TuChi,
         },
     ];
 

@@ -43,10 +43,8 @@ export const assets: any = {
     // about
     company: require('./images/aboutpage/company.png'),
     commitment: require('./images/aboutpage/commitment.jpg'),
-    // GiaBao: require('./images/aboutpage/GiaBao.png'),
-    // CongBang: require('./images/aboutpage/CongBang.png'),
-    // MinhVu: require('./images/aboutpage/MinhVu.png'),
-    // MinhHuy: require('./images/aboutpage/MinhHuy.jpg'),
+    HoangBao: require('./images/aboutpage/HoangBao.jpg'),
+    TuChi: require('./images/aboutpage/TuChi.jpg'),
     // profile
     avatar: require('./images/avatar.jpg'),
     // footer
