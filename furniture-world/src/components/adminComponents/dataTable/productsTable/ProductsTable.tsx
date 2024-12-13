@@ -283,24 +283,24 @@ export const ProductsTable = ({ productsList }: IProductsTablePropsType) => {
             width: 150,
             filters: [
                 {
-                    text: 'Dining Room',
-                    value: 'Dining Room',
+                    text: 'Strength Training Equipment',
+                    value: 'Strength Training Equipment',
                 },
                 {
-                    text: 'Kitchen',
-                    value: 'Kitchen',
+                    text: 'Treadmills',
+                    value: 'Treadmills',
                 },
                 {
-                    text: 'Bedroom',
-                    value: 'Bedroom',
+                    text: 'Weights',
+                    value: 'Weights',
                 },
                 {
-                    text: 'Office',
-                    value: 'Office',
+                    text: 'Accessories',
+                    value: 'Accessories',
                 },
                 {
-                    text: 'Living Room',
-                    value: 'Living Room',
+                    text: 'Rowing Machine',
+                    value: 'Rowing Machine',
                 },
             ],
             onFilter: (value, record) => record.category.indexOf(value as string) === 0,
@@ -451,11 +451,11 @@ export const ProductsTable = ({ productsList }: IProductsTablePropsType) => {
                         </Form.Item>
                         <Form.Item label="Category" name="category">
                             <Select>
-                                <Select.Option value="Dining Room">Dining Room</Select.Option>
-                                <Select.Option value="Kitchen">Kitchen</Select.Option>
-                                <Select.Option value="Bedroom">Bedroom</Select.Option>
-                                <Select.Option value="Office">Office</Select.Option>
-                                <Select.Option value="Living Room">Living Room</Select.Option>
+                                <Select.Option value="Strength Training Equipment">Strength Training Equipment</Select.Option>
+                                <Select.Option value="Treadmills">Treadmills</Select.Option>
+                                <Select.Option value="Weights">Weights</Select.Option>
+                                <Select.Option value="Accessories">Accessories</Select.Option>
+                                <Select.Option value="Rowing Machine">Rowing Machine</Select.Option>
                             </Select>
                         </Form.Item>
                         <Form.Item label="Quantity" name="quantity">
