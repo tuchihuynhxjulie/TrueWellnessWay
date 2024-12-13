@@ -62,7 +62,7 @@
 | No. |       Full Name       | Student's ID |              Email               |                 Github account                  |                 Roles                  | Contribution |
 | :-: | :-------------------: | :----------: | :------------------------------: | :---------------------------------------------: | :------------------------------------: | :----------: |
 |  1  |     Phan Nguyen Hoang Bao      | ITITIU20165  | ITITIU20165@student.hcmiu.edu.vn |     [giabao18](https://github.com/giabao18)     | Back-end Developer |     50%      |
-|  2  |     Huynh Thi Tu Chi      | ITCSIU21175  | ITCSIU20175@student.hcmiu.edu.vn |    [tuchihuynhxjulie](https://github.com/meowie2k3)    |           Front-end Developer           |     50%      |
+|  2  |     Huynh Thi Tu Chi      | ITCSIU21175  | ITCSIU20175@student.hcmiu.edu.vn |    [tuchihuynhxjulie](https://github.com/tuchihuynhxjulie)    |           Front-end Developer           |     50%      |
 | 
 ## 2. The project we are working on
 
